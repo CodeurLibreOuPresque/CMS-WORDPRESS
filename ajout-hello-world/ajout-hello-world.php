@@ -6,7 +6,7 @@
   Author: Souhayb Bensaidi
 */
 
-function hello_world( $content ){ 
+function BS_hello_world( $content ){ 
   if( is_single() )
   { 
     $text = "<p>Hello Word</p>";
@@ -19,4 +19,4 @@ function hello_world( $content ){
   } 
 }
 
-add_action('the_content', 'hello_world'); 
+add_action('the_content', 'BS_hello_world'); 
